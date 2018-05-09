@@ -63,7 +63,9 @@ namespace Persistence.Tests
                 var him = personsContext.Persons.Find(1);
                 var her = personsContext.Persons.Find(2);
                 him.SpouseId = null;
+                personsContext.SaveChanges();
                 her.SpouseId = null;
+                personsContext.SaveChanges();
                 personsContext.Persons.Remove(him);
                 personsContext.SaveChanges();
             }
