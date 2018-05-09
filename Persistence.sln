@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{9A3A7A08-84F2-4D45-94CF-AB57D602B395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Tests", "Persistence.Tests\Persistence.Tests.csproj", "{4F643C57-80C6-4B77-86FD-55EEBBAF7B45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A3A7A08-84F2-4D45-94CF-AB57D602B395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3A7A08-84F2-4D45-94CF-AB57D602B395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3A7A08-84F2-4D45-94CF-AB57D602B395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3A7A08-84F2-4D45-94CF-AB57D602B395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F643C57-80C6-4B77-86FD-55EEBBAF7B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F643C57-80C6-4B77-86FD-55EEBBAF7B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F643C57-80C6-4B77-86FD-55EEBBAF7B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F643C57-80C6-4B77-86FD-55EEBBAF7B45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA3B7FD6-277D-48A5-A659-D19EEEEF8984}
+	EndGlobalSection
+EndGlobal
